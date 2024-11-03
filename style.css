@@ -1,0 +1,94 @@
+header{
+    background-color: black;
+    padding: 15px 20px;
+}
+
+nav {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-logo {
+    height: 100%;
+    max-height: 20px;
+    width: auto;
+    object-fit: contain;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f0a500;
+}
+
+/* Products & Cart */
+
+.products, .cart {
+    flex: 1;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: whitesmoke;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+}
+
+.item {
+    display: flex;                 /* Enable flexbox layout */
+    justify-content: space-between; /* Space between items, pushing them to opposite sides */
+    align-items: center;
+}
+
+button {
+    padding: 5px 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.buttons span {
+    align-items: center;
+    margin: 0  10px;
+}
+
+.products button {
+    align-items: flex-end;
+}
+
+.total {
+    display: flex;
+    justify-content: center;
+}

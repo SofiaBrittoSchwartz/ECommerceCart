@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">E-Commerce Cart</div>
+            <ul class="nav-links">
+                <li><a href="#">Mobiles</a></li>
+                <li><a href="#">Laptops</a></li>
+                <li><a href="#">Electronics</a></li>
+                <li><a href="#">Furniture</a></li>
+                <li><a href="#">Devices</a></li>
+                <li>
+                    <a href="#">
+                        <span id="itemCount">0</span>
+                        <img class="cart-logo" src="./shopping-cart.png">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="products">
+            <h2>Products</h2>
+            <!-- update to generate these items by looping through array of items -->
+        </div>
+        <div class="cart">
+            <h2>Your Cart</h2>
+            <div class="items">
+            </div>
+            <div class="total">
+                <span>Total: $</span>
+                <span id="total">0.00</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
